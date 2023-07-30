@@ -1,3 +1,4 @@
+
 body {
     background-color: #2d3b52; 
     /* background-color: #2d3b52; */
@@ -96,23 +97,6 @@ p{
     gap: 35px;
 }
 
-
-@media (max-width: 500px) {
-    .frame {
-    position: relative; 
-    width: 100%; 
-    margin-top: 1.6em; 
-    margin-bottom: 0.9em; 
-    overflow: hidden;
-    will-change: transform;
-    display: flex; 
-    flex-direction: column;
-    justify-content: center; 
-    align-items: center;
-    }
-
-  }
-
 .frame-2 {
     
     position: relative; 
@@ -155,4 +139,19 @@ p{
     margin: 0;
     border-radius: 8px; 
     box-shadow: 0 2px 8px 0 #24272C;
+}
+
+@media (max-width: 767px) {
+    .frame {
+    position: relative; 
+    width: 100%; 
+    margin-top: 1.6em; 
+    margin-bottom: 0.9em; 
+    overflow: hidden;
+    will-change: transform;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    }
 }
