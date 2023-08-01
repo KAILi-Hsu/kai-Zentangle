@@ -136,3 +136,41 @@ p{
     border-radius: 8px; 
     box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16);
 }
+
+
+
+.sidebar-button{
+    position: fixed;
+    top: 2px;
+    right: 2px;
+    background-color:rgba(255, 255, 255, 0);
+    color: #fff;
+    padding: 10px 10px;
+    /* cursor: pointer; */
+    z-index: 2; 
+}
+
+#sidebar {
+    position: fixed;
+    top: 0;
+    right: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0); /* 初始時將背景設置為透明 */
+    padding: 20px;
+    transition: right 0.3s ease;
+    z-index: 1;
+  }
+  
+  #sidebar.active {
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.8); 
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  a{
+    color: black;
+  }
